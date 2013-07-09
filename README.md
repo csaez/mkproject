@@ -12,14 +12,18 @@ Ussage
 
 Type `mkproject C:\DEV\PROJECT_NAME` on a shell. It should create the following directory structure on the destination folder.
 
+    CHANGES.txt
+    LICENSE.txt
+    MANIFEST.in
+    README.md
     setup.py
-    PROJECT_NAME/
-      __init__.py
     bin/
     docs/
-    tests/
-      PROJECT_NAME_tests.py
+    PROJECT_NAME/
       __init__.py
+      tests/
+        __init__.py
+        PROJECT_NAME_tests.py
 
 ### Where:
 
