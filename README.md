@@ -2,6 +2,11 @@ mkproject
 =========
 A simple template for python projects.
 
+Installation
+------------
+
+    python setup.py install
+
 Ussage
 ------
 
@@ -40,7 +45,7 @@ file: `setup.py`
 
     setup(**config)
 
-file: `NAME_tests.py`
+file: `PROJECT_NAME_tests.py`
 
     from nose.tools import *
     import PROJECT_NAME
