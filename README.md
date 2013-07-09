@@ -10,7 +10,7 @@ Installation
 Ussage
 ------
 
-Type `mkproject C:\DEV\PROJECT_NAME` on a shell. It should create the following directory structure on the destination folder.
+Type `mkproject PROJECT_NAME` on a shell. It should create the following project structure.
 
     CHANGES.txt
     LICENSE.txt

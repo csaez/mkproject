@@ -17,8 +17,8 @@ def _mkdir(directory):
 
 
 def main():
-    project_dir = sys.argv[1]
-    project_name = os.path.basename(project_dir)
+    project_name = sys.argv[1]
+    project_dir = os.path.join(os.getcwd(), project_name)
 
     # create dir
     _mkdir(project_dir)
