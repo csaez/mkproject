@@ -1,6 +1,6 @@
 mkproject
 =========
-A simple template for python projects.
+`mkproject` is a simple console script that generate a basic python project structure.
 
 Installation
 ------------
@@ -10,7 +10,7 @@ Installation
 Ussage
 ------
 
-Type `mkproject C:\DEV\PROJECT_NAME` on a shell and it should create the following directory structure.
+Type `mkproject C:\DEV\PROJECT_NAME` on a shell. It should create the following directory structure on the destination folder.
 
     setup.py
     PROJECT_NAME/
@@ -21,7 +21,7 @@ Type `mkproject C:\DEV\PROJECT_NAME` on a shell and it should create the followi
       PROJECT_NAME_tests.py
       __init__.py
 
-Where:
+### Where:
 
 file: `setup.py`
 
